@@ -1,0 +1,79 @@
+.App {
+background-color: #404040;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 180px;
+}
+
+
+
+.filter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  gap: 3rem;
+}
+
+.filter-container input {
+  font-family: roboto;
+  background-color: #373738;
+  color: white;
+  font-size: 18px;
+  padding: 8px 18px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  width: 50%;
+}
+
+.filter-container input::placeholder {
+  color: #fcfcfa;
+}
+
+.filter-container select {
+  font-family: roboto;
+  background-color: #505050;
+  color: white;
+  font-size: 18px;
+  border-radius: 8px;
+  padding: 8px 18px;
+  outline: none;
+  border: none;
+  width: 50%;
+}
+
+select option:checked {
+  background-color: #0c0c0c;
+}
+
+.view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.view-container h1 {
+  font-family: roboto;
+  color: #404040;
+}
+
+.view-container button {
+  font-family: roboto;
+  color: #fff;
+  font-size: 18px;
+  margin: 20px;
+  padding: 8px 18px;
+  background-color: rgb(11, 11, 11);
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
